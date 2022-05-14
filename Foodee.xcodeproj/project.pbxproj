@@ -18,6 +18,8 @@
 		E735CD9C2823F9AE00190280 /* FoodeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E735CD9B2823F9AE00190280 /* FoodeeTests.swift */; };
 		E735CDA72823F9AE00190280 /* FoodeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E735CDA62823F9AE00190280 /* FoodeeUITests.swift */; };
 		E735CDBC282418F400190280 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E735CDBB282418F400190280 /* OnboardingViewController.swift */; };
+		E77A0303282F76A6003893C4 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77A0302282F76A6003893C4 /* PopularCollectionViewCell.swift */; };
+		E77A0305282F9EB2003893C4 /* popularCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77A0304282F9EB2003893C4 /* popularCollectionView.swift */; };
 		E7874B1E282E9A4100913E4D /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B1D282E9A4100913E4D /* FoodViewController.swift */; };
 		E7874B22282ED21300913E4D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B21282ED21300913E4D /* Color.swift */; };
 		E7874B27282EDA3700913E4D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B26282EDA3700913E4D /* TabBarController.swift */; };
@@ -63,6 +65,8 @@
 		E735CDA62823F9AE00190280 /* FoodeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodeeUITests.swift; sourceTree = "<group>"; };
 		E735CDA82823F9AE00190280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E735CDBB282418F400190280 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E77A0302282F76A6003893C4 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		E77A0304282F9EB2003893C4 /* popularCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularCollectionView.swift; sourceTree = "<group>"; };
 		E7874B1D282E9A4100913E4D /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		E7874B21282ED21300913E4D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		E7874B26282EDA3700913E4D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		E70C3C1728294923007C9104 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E77A0301282F7664003893C4 /* Popular */,
 				E7874B1C282E9A2400913E4D /* Food */,
 				E7874B1B282E795200913E4D /* Category */,
 				E70C3C1828294A25007C9104 /* HomeViewController.swift */,
@@ -188,6 +193,15 @@
 				E7AA34F82824300B0006168F /* OnboardingCollectionViewCell.swift */,
 			);
 			name = OnBoarding;
+			sourceTree = "<group>";
+		};
+		E77A0301282F7664003893C4 /* Popular */ = {
+			isa = PBXGroup;
+			children = (
+				E77A0302282F76A6003893C4 /* PopularCollectionViewCell.swift */,
+				E77A0304282F9EB2003893C4 /* popularCollectionView.swift */,
+			);
+			name = Popular;
 			sourceTree = "<group>";
 		};
 		E7874B1B282E795200913E4D /* Category */ = {
@@ -379,10 +393,12 @@
 				E7874B27282EDA3700913E4D /* TabBarController.swift in Sources */,
 				E7AA34F728242C350006168F /* OnboardingSlide.swift in Sources */,
 				E7874B2A282EDB1000913E4D /* CartViewController.swift in Sources */,
+				E77A0303282F76A6003893C4 /* PopularCollectionViewCell.swift in Sources */,
 				E7AA34F22824289F0006168F /* UIView+Extension.swift in Sources */,
 				E7AA34F92824300B0006168F /* OnboardingCollectionViewCell.swift in Sources */,
 				E7874B1E282E9A4100913E4D /* FoodViewController.swift in Sources */,
 				E735CDBC282418F400190280 /* OnboardingViewController.swift in Sources */,
+				E77A0305282F9EB2003893C4 /* popularCollectionView.swift in Sources */,
 				E735CD872823F9AC00190280 /* AppDelegate.swift in Sources */,
 				E71DD984282E4B1500926695 /* CategoryView.swift in Sources */,
 				E70C3C1928294A25007C9104 /* HomeViewController.swift in Sources */,
