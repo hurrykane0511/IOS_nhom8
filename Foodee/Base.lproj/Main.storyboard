@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fIp-e1-wQR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rm1-2y-zBw">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -492,9 +492,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Htk-Mu-8xG">
-                                <rect key="frame" x="0.0" y="79" width="375" height="588"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Htk-Mu-8xG">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="h3k-aI-KTz">
                                     <size key="itemSize" width="173" height="218"/>
@@ -582,6 +581,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Htk-Mu-8xG" firstAttribute="bottom" secondItem="8xN-d5-rZy" secondAttribute="bottom" id="KC8-OV-lJg"/>
+                            <constraint firstItem="Htk-Mu-8xG" firstAttribute="leading" secondItem="8xN-d5-rZy" secondAttribute="leading" id="bIE-jq-52M"/>
+                            <constraint firstItem="Htk-Mu-8xG" firstAttribute="top" secondItem="8xN-d5-rZy" secondAttribute="top" id="iLP-V5-Hil"/>
+                            <constraint firstItem="Htk-Mu-8xG" firstAttribute="trailing" secondItem="8xN-d5-rZy" secondAttribute="trailing" id="jod-ip-Fou"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8xN-d5-rZy"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cdt-76-T5W"/>
