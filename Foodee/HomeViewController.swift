@@ -50,6 +50,8 @@ class HomeViewController: UIViewController {
         searchBar.setBackgroundImage(UIImage.init(), for: UIBarPosition.any, barMetrics: UIBarMetrics.default)
         searchBar.layer.borderColor = UIColor.gray.cgColor
         searchBar.cornerRadius = searchBar.frame.height / 2
+        
+        searchBar.delegate = self
         self.promotionView.layer.insertSublayer(LinearColor.init(view: promotionView).gl, at:0)
         
   
@@ -69,7 +71,24 @@ class HomeViewController: UIViewController {
         self.navigationController?.navigationBar.isTranslucent = false
     }
     
+    
 }
+extension HomeViewController: UISearchBarDelegate
+{
+    func searchBarShouldEndEditing(_ searchBar: UISearchBar) -> Bool {
+          searchBar.resignFirstResponder()
+        return true
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+          searchBar.resignFirstResponder()
+    }
+    
+    func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+    }
+}
+
 
 extension HomeViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

@@ -20,7 +20,6 @@
 		E735CDBC282418F400190280 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E735CDBB282418F400190280 /* OnboardingViewController.swift */; };
 		E77A0303282F76A6003893C4 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77A0302282F76A6003893C4 /* PopularCollectionViewCell.swift */; };
 		E77A0305282F9EB2003893C4 /* popularCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77A0304282F9EB2003893C4 /* popularCollectionView.swift */; };
-		E7874B1E282E9A4100913E4D /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B1D282E9A4100913E4D /* FoodViewController.swift */; };
 		E7874B22282ED21300913E4D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B21282ED21300913E4D /* Color.swift */; };
 		E7874B27282EDA3700913E4D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B26282EDA3700913E4D /* TabBarController.swift */; };
 		E7874B2A282EDB1000913E4D /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7874B29282EDB1000913E4D /* CartViewController.swift */; };
@@ -28,6 +27,8 @@
 		E7AA34F428242A5E0006168F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7AA34F328242A5E0006168F /* LaunchScreen.storyboard */; };
 		E7AA34F728242C350006168F /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA34F628242C350006168F /* OnboardingSlide.swift */; };
 		E7AA34F92824300B0006168F /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AA34F82824300B0006168F /* OnboardingCollectionViewCell.swift */; };
+		E7AF6D6A28300CD400A232EB /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AF6D6928300CD400A232EB /* FoodCollectionViewCell.swift */; };
+		E7AF6D6E28300DE400A232EB /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AF6D6D28300DE400A232EB /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +68,6 @@
 		E735CDBB282418F400190280 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		E77A0302282F76A6003893C4 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
 		E77A0304282F9EB2003893C4 /* popularCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularCollectionView.swift; sourceTree = "<group>"; };
-		E7874B1D282E9A4100913E4D /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		E7874B21282ED21300913E4D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		E7874B26282EDA3700913E4D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E7874B29282EDB1000913E4D /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +75,8 @@
 		E7AA34F328242A5E0006168F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7AA34F628242C350006168F /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		E7AA34F82824300B0006168F /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7AF6D6928300CD400A232EB /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7AF6D6D28300DE400A232EB /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				E77A0301282F7664003893C4 /* Popular */,
-				E7874B1C282E9A2400913E4D /* Food */,
 				E7874B1B282E795200913E4D /* Category */,
 				E70C3C1828294A25007C9104 /* HomeViewController.swift */,
 			);
@@ -178,6 +179,7 @@
 		E735CDB5282417C200190280 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7AF6D6828300C8900A232EB /* Food */,
 				E7874B28282EDAF900913E4D /* Cart */,
 				E7874B23282ED9A100913E4D /* Tabbar */,
 				E70C3C1728294923007C9104 /* Home */,
@@ -213,14 +215,6 @@
 			name = Category;
 			sourceTree = "<group>";
 		};
-		E7874B1C282E9A2400913E4D /* Food */ = {
-			isa = PBXGroup;
-			children = (
-				E7874B1D282E9A4100913E4D /* FoodViewController.swift */,
-			);
-			name = Food;
-			sourceTree = "<group>";
-		};
 		E7874B23282ED9A100913E4D /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +247,15 @@
 				E7874B21282ED21300913E4D /* Color.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E7AF6D6828300C8900A232EB /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				E7AF6D6928300CD400A232EB /* FoodCollectionViewCell.swift */,
+				E7AF6D6D28300DE400A232EB /* FoodViewController.swift */,
+			);
+			name = Food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71DD989282E621600926695 /* CategoryCollectionViewCell.swift in Sources */,
+				E7AF6D6E28300DE400A232EB /* FoodViewController.swift in Sources */,
 				E7874B22282ED21300913E4D /* Color.swift in Sources */,
 				E7874B27282EDA3700913E4D /* TabBarController.swift in Sources */,
 				E7AA34F728242C350006168F /* OnboardingSlide.swift in Sources */,
@@ -396,8 +400,8 @@
 				E77A0303282F76A6003893C4 /* PopularCollectionViewCell.swift in Sources */,
 				E7AA34F22824289F0006168F /* UIView+Extension.swift in Sources */,
 				E7AA34F92824300B0006168F /* OnboardingCollectionViewCell.swift in Sources */,
-				E7874B1E282E9A4100913E4D /* FoodViewController.swift in Sources */,
 				E735CDBC282418F400190280 /* OnboardingViewController.swift in Sources */,
+				E7AF6D6A28300CD400A232EB /* FoodCollectionViewCell.swift in Sources */,
 				E77A0305282F9EB2003893C4 /* popularCollectionView.swift in Sources */,
 				E735CD872823F9AC00190280 /* AppDelegate.swift in Sources */,
 				E71DD984282E4B1500926695 /* CategoryView.swift in Sources */,
