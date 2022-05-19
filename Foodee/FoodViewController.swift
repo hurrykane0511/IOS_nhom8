@@ -14,7 +14,13 @@ class FoodViewController: UIViewController {
     
     fileprivate let foods =
     [
-        Food(name: "Burger", image: #imageLiteral(resourceName: "burger"), price: 96),
+        Food(name: "Burger", image: #imageLiteral(resourceName: "burger"), price: 69),
+        Food(name: "Pizza", image: #imageLiteral(resourceName: "1 (3)"), price: 69),
+        Food(name: "Desserts", image: #imageLiteral(resourceName: "1-1"), price: 69),
+        Food(name: "Salad", image: #imageLiteral(resourceName: "salad"), price: 69),
+        Food(name: "Strawberry cream cake", image: #imageLiteral(resourceName: "creamCake"), price: 69),
+        Food(name: "Pizaa Cheese", image: #imageLiteral(resourceName: "pizzacheese"), price: 69),
+        Food(name: "Taco", image: #imageLiteral(resourceName: "1 (4)"), price: 69),
 
     ]
     
